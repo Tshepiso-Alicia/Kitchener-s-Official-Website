@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kitchener's & Little Kitcheners</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/fotor-20.png" alt="Kitchener's Logo" width="250">
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <div class="logo">Kitcheners</div>
+        <button class="hamburger" id="hamburger">☰</button>
+        <ul class="nav-menu" id="navMenu"> 
+            <li><a href="home.html">Home</a></li>     
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li> <!-- New Link -->
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you! Whether you have a question about our products, need assistance with an order, or just want to share your experience with us, please feel free to reach out.</p>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>
+            <strong>Phone:</strong> (011) 403 0166<br>
+            <strong>Email:</strong> <a href="mailto:kitchenersbraam@gmail.com">kitchenersbraam@gmail.com</a><br>
+            <strong>Address:</strong> 71 Juta Street, Johannesburg, Gauteng 2001
+        </p>
+    </section>
+    
+    <section>
+        <!-- <h2>Customer Experience GOOGLE Document</h2> -->
+        <!-- <iframe>
+            src="https://docs.google.com/forms/d/e/1FAIpQLSciv8EdDBQruCbiSGi4Tjid5OZ75Jsti0cx9aPZsVhcN5QSVQ/viewform?usp=header"
+            width="640" height="400" frameborder="0" marginheight="0" marginwidth="0" </iframe>
+        
+        <section> -->
+        
+        <div class="contact-form-container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+                <button type="submit" class="submit-button">
+                    Send Message
+                </button>
+            </form>
+        </div>
+
+
+        <h2>Visit Us</h2>
+        <p>We welcome you to visit Kitchener's or Little Kitchener's. Below is our location:</p>
+        <p><strong>Address:</strong> 71 Juta Street, Johannesburg, Gauteng 2001</p>
+        <!-- Google Maps Embed -->
+
+        <iframe 
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.071426468636!2d28.032161975414976!3d-26.19435467708264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1bf28b0ad9%3A0xa5e60008c5c17f9f!2sKitchener&#39;s!5e0!3m2!1sen!2sza!4v1742564412046!5m2!1sen!2sza" 
+           width="600" 
+           height="450" 
+           style="border:0;" 
+           allowfullscreen="" 
+           loading="lazy" 
+           referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+    <br>
+    <footer>
+        <p>&copy; <span id="CurrentYear"></span> Kitchener's. All rights reserved.</p>
+        <p>Follow us on:</p>
+        <p>
+            <a href="https://www.instagram.com/kitchenersbraam/">Instagram</a> 
+            <a href="https://www.facebook.com/BarKitcheners/">Facebook</a> 
+        </p>
+        <p>Contact Us:</p>
+        <p>
+            Phone: (011) 403 0166<br>
+            Email: <a href="mailto:kitchenersbraam@gmail.com">kitchenersbraam@gmail.com</a><br>
+            Address: 71 Juta Street, Johannesburg, Gauteng 2001 - Kitchener's Bar 
+            <br>2nd Address: 5 De Beer Street, Johannesburg, Gauteng 2001 - Little Kitchener's (next door)
+        </p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
